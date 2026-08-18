@@ -9,6 +9,13 @@ and Bulgaria's Trifon Zarezan.
 
 ## Subscribe
 
+**Feed URL:** https://wine-calendar.vercel.app/wine-holidays.ics
+
+**Landing page:** https://wine-calendar.vercel.app
+
+Also served from GitHub Pages, if you would rather point at the repo directly:
+`https://ale-ayestaran-ai.github.io/wine-calendar/wine-holidays.ics`
+
 Paste the feed URL into your calendar app:
 
 - **Google Calendar** — Other calendars → + → From URL
