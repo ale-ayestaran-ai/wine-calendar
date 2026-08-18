@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Holidays — a calendar you can subscribe to</title>
+<meta name="description" content="A subscribable calendar feed of wine holidays from around the world: grape days, style days, wine weeks and wine-country traditions.">
+<style>
+  :root {
+    --bg: #fbf9f7;
+    --surface: #ffffff;
+    --border: #e6ddd6;
+    --text: #241c1a;
+    --muted: #6d5f58;
+    --accent: #7b2333;
+    --accent-soft: #f4eaec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17110f;
+      --surface: #201815;
+      --border: #372b26;
+      --text: #f2e9e4;
+      --muted: #a8968d;
+      --accent: #d98a99;
+      --accent-soft: #2c1c20;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  h1 {
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    font-size: clamp(2.1rem, 6vw, 3rem);
+    line-height: 1.1; margin: 0 0 .6rem; letter-spacing: -.02em;
+  }
+  .lede { font-size: 1.12rem; color: var(--muted); margin: 0 0 2.5rem; max-width: 34rem; }
+  h2 { font-size: 1.05rem; letter-spacing: .04em; text-transform: uppercase;
+       color: var(--muted); margin: 3rem 0 1rem; font-weight: 600; }
+  a { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem; }
+  .url {
+    display: block; width: 100%; font: .9rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: .7rem .85rem; color: var(--text); word-break: break-all; margin-bottom: .9rem;
+  }
+  .buttons { display: flex; flex-wrap: wrap; gap: .55rem; }
+  .btn {
+    display: inline-block; padding: .55rem 1rem; border-radius: 8px; text-decoration: none;
+    font-size: .92rem; font-weight: 500; border: 1px solid var(--border);
+    background: var(--bg); color: var(--text); cursor: pointer;
+  }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  @media (prefers-color-scheme: dark) { .btn.primary { color: #17110f; } }
+  .btn:hover { border-color: var(--accent); }
+  ul.days { list-style: none; padding: 0; margin: 0; }
+  ul.days li {
+    display: flex; gap: 1rem; align-items: baseline;
+    padding: .6rem 0; border-bottom: 1px solid var(--border);
+  }
+  ul.days li:last-child { border-bottom: 0; }
+  .date { flex: 0 0 6.5rem; font: .82rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
+  .tag { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+         color: var(--accent); background: var(--accent-soft); padding: .1rem .45rem;
+         border-radius: 4px; margin-left: .5rem; white-space: nowrap; }
+  .note { font-size: .93rem; color: var(--muted); }
+  footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+           font-size: .9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wine Holidays</h1>
+  <p class="lede">
+    Every grape day, style day, wine week and wine-country tradition worth knowing
+    about — in one calendar you can subscribe to once and forget about.
+    Malbec Day, Sherry Week, Beaujolais Nouveau, Boxed Wine Day, St Martin's Day.
+  </p>
+
+  <div class="card">
+    <code class="url" id="feed-url">loading…</code>
+    <div class="buttons">
+      <button class="btn primary" id="copy">Copy feed URL</button>
+      <a class="btn" id="google" href="#" target="_blank" rel="noopener">Add to Google</a>
+      <a class="btn" id="apple" href="#">Add to Apple</a>
+      <a class="btn" id="outlook" href="#" target="_blank" rel="noopener">Add to Outlook</a>
+    </div>
+  </div>
+
+  <h2>Coming up</h2>
+  <ul class="days" id="upcoming"><li><span class="note">loading…</span></li></ul>
+
+  <h2>How it works</h2>
+  <p class="note">
+    The calendar is built from a single data file where each holiday records its
+    recurrence rule, a confidence rating, and the sources the date came from.
+    Almost every entry is a recurring event — <em>third Friday of September</em>,
+    <em>last Thursday of October</em> — so your calendar app does the date maths
+    and the feed keeps working indefinitely.
+  </p>
+  <p class="note">
+    Wine holidays are mostly self-declared, and the blog lists that catalogue them
+    contradict each other constantly. Where sources disagree, the entry says so in
+    its description rather than picking a date and pretending to be sure.
+    <a href="https://github.com/ale-ayestaran-ai/wine-calendar" id="repo-link">The full data
+    and sources are on GitHub</a> if you want to check our work or add something we missed.
+  </p>
+
+  <footer>
+    <span id="count"></span>
+    Google caches subscribed feeds for 12–24 hours; Apple Calendar lets you choose the refresh interval.
+    · <a href="https://github.com/ale-ayestaran-ai/wine-calendar">Source</a>
+  </footer>
+</main>
+
+<script>
+const WD = { SU:0, MO:1, TU:2, WE:3, TH:4, FR:5, SA:6 };
+const addDays = (d,n) => new Date(d.getTime() + n*86400000);
+
+function nthWeekday(year, month, weekday, n) {
+  const target = WD[weekday];
+  if (n === -1) {
+    const last = new Date(Date.UTC(year, month, 0));
+    return addDays(last, -((last.getUTCDay() - target + 7) % 7));
+  }
+  const first = new Date(Date.UTC(year, month-1, 1));
+  return addDays(first, ((target - first.getUTCDay() + 7) % 7) + (n-1)*7);
+}
+
+const COMPUTED = {
+  thursdayBeforeMemorialDay: y => addDays(nthWeekday(y, 5, 'MO', -1), -4),
+  thursdayBeforeLaborDay:    y => addDays(nthWeekday(y, 9, 'MO', 1), -4),
+  englishWineWeek:           y => nthWeekday(y, 6, 'SA', 3),
+};
+
+function occurrence(entry, year) {
+  const r = entry.rule;
+  if (r.type === 'fixed')       return new Date(Date.UTC(year, r.month-1, r.day));
+  if (r.type === 'month')       return new Date(Date.UTC(year, r.month-1, 1));
+  if (r.type === 'nth_weekday') return nthWeekday(year, r.month, r.weekday, r.n);
+  if (r.type === 'computed')    return COMPUTED[r.fn](year);
+}
+
+// Build the subscribe links from wherever this page is actually served.
+const feed = location.origin + '/wine-holidays.ics';
+const webcal = feed.replace(/^https?:/, 'webcal:');
+document.getElementById('feed-url').textContent = feed;
+document.getElementById('google').href  = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcal);
+document.getElementById('apple').href   = webcal;
+document.getElementById('outlook').href =
+  'https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(feed) + '&name=' + encodeURIComponent('Wine Holidays');
+
+document.getElementById('copy').addEventListener('click', async (e) => {
+  try {
+    await navigator.clipboard.writeText(feed);
+    e.target.textContent = 'Copied';
+    setTimeout(() => { e.target.textContent = 'Copy feed URL'; }, 1800);
+  } catch { e.target.textContent = 'Select the URL above'; }
+});
+
+fetch('/wine-holidays.json').then(r => r.json()).then(data => {
+  const today = new Date();
+  const now = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  const year = today.getUTCFullYear();
+
+  const upcoming = data.holidays
+    .flatMap(h => [year, year+1].map(y => ({ h, when: occurrence(h, y) })))
+    .filter(x => x.when.getTime() >= now)
+    .sort((a,b) => a.when - b.when)
+    .slice(0, 10);
+
+  const fmt = new Intl.DateTimeFormat('en-GB', { day:'numeric', month:'short', timeZone:'UTC' });
+  document.getElementById('upcoming').innerHTML = upcoming.map(({h, when}) => `
+    <li>
+      <span class="date">${fmt.format(when)}</span>
+      <span>${h.name}${h.confidence === 'low' ? '<span class="tag">date disputed</span>' : ''}</span>
+    </li>`).join('');
+
+  document.getElementById('count').textContent = data.holidays.length + ' holidays, last updated ' + data._meta.updated + '. ';
+}).catch(() => {
+  document.getElementById('upcoming').innerHTML = '<li><span class="note">Could not load the list.</span></li>';
+});
+</script>
+</body>
+</html>
