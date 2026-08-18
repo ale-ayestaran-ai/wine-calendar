@@ -1,0 +1,2029 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wine Holidays//Wine Holidays Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wine Holidays
+X-WR-CALDESC:Grape days\, wine weeks and wine-country traditions from aroun
+ d the world. 85 entries. Updated 2026-08-18.
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+X-PUBLISHED-TTL:P7D
+BEGIN:VEVENT
+UID:st-vincent-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=22
+SUMMARY:St Vincent's Day (Winemakers' Patron Saint)
+DESCRIPTION:Feast of St Vincent\, patron saint of winegrowers. Marked as Vi
+ ncencovo in Slovenia and Croatia\, and by the Saint-Vincent Tournante proc
+ ession that rotates between villages in Burgundy.\n\nRegion: France\, Slov
+ enia\, Croatia\n\nSource: https://winetastingljubljana.com/blog/6-importan
+ t-wine-holidays-slovenia/
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:port-wine-day-january@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=27
+SUMMARY:International Port Wine Day
+DESCRIPTION:A day for Portugal's fortified wine from the Douro. Note there 
+ are two competing Port days — this one and 10 September. Both are in thi
+ s calendar.\n\nRegion: Portugal\n\nHeads up: sources disagree on this date
+  — worth checking before you plan around it.\n\nSource: https://wineinte
+ rnationalassociation.org/wine-days-calendar-2026/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:furmint-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260202
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=1
+SUMMARY:International Furmint Day
+DESCRIPTION:Hungary's flagship white grape\, behind both dry Tokaj wines an
+ d sweet Tokaji Aszu.\n\nRegion: Hungary\n\nSource: https://www.wsetglobal.
+ com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:trifon-zarezan@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=14
+SUMMARY:Trifon Zarezan — Day of Winegrowers and Winemakers
+DESCRIPTION:Bulgaria's vine-pruning festival honouring St Tryphon\, patron 
+ of winemakers. The Orthodox church moved the feast to 1 February in 1968\,
+  but the country still keeps the growers' day on 14 February.\n\nRegion: B
+ ulgaria\n\nSource: https://en.wikipedia.org/wiki/Trifon_Zarezan
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:syrah-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=16
+SUMMARY:International Syrah Day
+DESCRIPTION:The Northern Rhone's great red grape\, known as Shiraz in Austr
+ alia (which has its own separate day in July).\n\nSource: https://www.wset
+ global.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:drink-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=18
+SUMMARY:Global Drink Wine Day
+DESCRIPTION:A general-purpose excuse. No grape\, no region\, no rules.\n\nS
+ ource: http://nationaldrinkwineday.org/
+CATEGORIES:fun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:open-that-bottle-night@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=-1SA
+SUMMARY:Open That Bottle Night
+DESCRIPTION:Started by the Wall Street Journal's wine columnists: the night
+  you finally drink the special bottle you have been saving for an occasion
+  that never comes.\n\nSource: https://wineinternationalassociation.org/win
+ e-days-calendar-2026/
+CATEGORIES:fun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:washington-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260401
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=1
+SUMMARY:Washington Wine Month
+DESCRIPTION:Month-long promotion of Washington State wine.\n\nRegion: Washi
+ ngton\, USA\n\nSource: https://winetimefridays.com/wine-days/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mulled-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=3
+SUMMARY:International Mulled Wine Day
+DESCRIPTION:A late-winter send-off for gluhwein\, vin chaud and glogg.\n\nS
+ ource: https://nationaldaycalendar.com/national-mulled-wine-day-march-3/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:nebbiolo-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=3
+SUMMARY:Nebbiolo Day
+DESCRIPTION:Trade tasting in London run with the Barolo\, Barbaresco and Va
+ ltellina consortia. The date moves year to year — it was 3 March in 2026
+  — so treat this as a placeholder and check wsta.co.uk each winter.\n\nR
+ egion: Italy\n\nHeads up: sources disagree on this date — worth checking
+  before you plan around it.\n\nSource: https://wsta.co.uk/trade-diary/nebb
+ iolo-day-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:riesling-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=13
+SUMMARY:International Riesling Day
+DESCRIPTION:Riesling's birthday — the date of the first written record of
+  the grape\, in a 1435 cellar inventory.\n\nRegion: Germany\n\nSource: htt
+ ps://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-202
+ 6
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vermouth-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=21
+SUMMARY:World Vermouth Day
+DESCRIPTION:Aromatised\, fortified wine — Turin\, Chambery and Reus all h
+ ave a claim.\n\nRegion: Italy\, Spain\, France\n\nSource: https://www.wset
+ global.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tannat-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=14
+SUMMARY:Tannat Day
+DESCRIPTION:Uruguay's signature red\, originally from Madiran in south-west
+  France. Promoted by Wines of Uruguay.\n\nRegion: Uruguay\n\nSource: https
+ ://www.uruguay.wine/journal/tannatday
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:malbec-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=17
+SUMMARY:World Malbec Day
+DESCRIPTION:Marks 17 April 1853\, when Argentine president Sarmiento formal
+ ly set out to build the country's wine industry — with Malbec at the cen
+ tre. Run by Wines of Argentina.\n\nRegion: Argentina\n\nSource: https://ww
+ w.malbecworldday.com/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:viognier-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=-1FR
+SUMMARY:International Viognier Day
+DESCRIPTION:The aromatic white of Condrieu\, now also grown in California a
+ nd Australia.\n\nRegion: France\n\nSource: https://wineinternationalassoci
+ ation.org/wine-days-calendar-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qvevri-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=26
+SUMMARY:International Qvevri Day
+DESCRIPTION:The buried clay vessel at the heart of Georgian winemaking\, a 
+ UNESCO-listed practice.\n\nRegion: Georgia\n\nHeads up: sources disagree o
+ n this date — worth checking before you plan around it.\n\nSource: https
+ ://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:marselan-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=27
+SUMMARY:World Marselan Day
+DESCRIPTION:A 1961 crossing of Cabernet Sauvignon and Grenache\, increasing
+ ly seen as China's signature red.\n\nRegion: France\, China\n\nSource: htt
+ ps://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-202
+ 6
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sauvignon-blanc-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=1FR
+SUMMARY:International Sauvignon Blanc Day
+DESCRIPTION:Started by New Zealand Winegrowers\, timed to the Marlborough h
+ arvest.\n\nRegion: New Zealand\, France\n\nSource: https://wineinternation
+ alassociation.org/wine-days-calendar-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oregon-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
+SUMMARY:Oregon Wine Month
+DESCRIPTION:Month-long promotion by the Oregon Wine Board.\n\nRegion: Orego
+ n\, USA\n\nSource: https://www.wineenthusiast.com/culture/wine/social-medi
+ a-alcohol-food-holiday-guide/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:baga-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=1SA
+SUMMARY:International Baga Day
+DESCRIPTION:Bairrada's tannic native red.\n\nRegion: Portugal\n\nSource: ht
+ tps://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-20
+ 25
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moscato-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=9
+SUMMARY:World Moscato Day
+DESCRIPTION:Muscat in all its forms\, from Asti to Rutherglen.\n\nRegion: I
+ taly\n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grap
+ e-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pinot-grigio-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=17
+SUMMARY:Pinot Grigio Day
+DESCRIPTION:Italy's most exported white. One source puts this on 26 May ins
+ tead.\n\nRegion: Italy\n\nSource: https://www.wsetglobal.com/knowledge-cen
+ tre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mourvedre-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=21
+SUMMARY:National Mourvedre Day
+DESCRIPTION:Declared by Texas Wine Lover in 2017 to fill a gap in the calen
+ dar. The M in GSM\; Monastrell in Spain.\n\nRegion: USA\, France\, Spain\n
+ \nHeads up: sources disagree on this date — worth checking before you pl
+ an around it.\n\nSource: https://txwinelover.com/national-and-internationa
+ l-wine-days/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2026@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:judgment-of-paris@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=24
+SUMMARY:Anniversary of the Judgment of Paris
+DESCRIPTION:The 1976 blind tasting where California wines beat the best of 
+ Bordeaux and Burgundy in front of French judges\, and the wine world rearr
+ anged itself.\n\nRegion: USA\, France\n\nSource: https://wineinternational
+ association.org/wine-days-calendar-2026/
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=25
+SUMMARY:National Wine Day
+DESCRIPTION:Wine in general\, no qualifiers. Distinct from Global Drink Win
+ e Day in February.\n\nRegion: USA\n\nSource: https://winefolly.com/lifesty
+ le/national-wine-day/
+CATEGORIES:fun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:idaho-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260701
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
+SUMMARY:Idaho Wine Month
+DESCRIPTION:Month-long promotion of Idaho wine.\n\nRegion: Idaho\, USA\n\nS
+ ource: https://www.wineenthusiast.com/culture/wine/social-media-alcohol-fo
+ od-holiday-guide/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sommelier-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=3
+SUMMARY:International Sommelier Day
+DESCRIPTION:A day for the people pouring rather than the wine itself.\n\nHe
+ ads up: sources disagree on this date — worth checking before you plan a
+ round it.\n\nSource: https://wineinternationalassociation.org/wine-days-ca
+ lendar-2026/
+CATEGORIES:trade
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bubbly-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=1SA
+SUMMARY:National Bubbly Day
+DESCRIPTION:Sparkling wine of any origin.\n\nRegion: USA\n\nSource: https:/
+ /txwinelover.com/national-and-international-wine-days/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:durif-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=10
+SUMMARY:Durif Day (Petite Sirah)
+DESCRIPTION:Claimed by the Riverina Winemakers Association in Australia. Du
+ rif and Petite Sirah are the same grape — a Syrah x Peloursin crossing.\
+ n\nRegion: Australia\n\nSource: https://www.riverinawinemakers.com.au/duri
+ f-day
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:verdejo-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=2FR
+SUMMARY:World Verdejo Day
+DESCRIPTION:Rueda's white grape. Sources split between the second Friday an
+ d the second Thursday of June.\n\nRegion: Spain\n\nHeads up: sources disag
+ ree on this date — worth checking before you plan around it.\n\nSource: 
+ https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-
+ 2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:national-rose-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=2SA
+SUMMARY:National Rose Day
+DESCRIPTION:The US rose day. Not the same as International Rose Day later i
+ n the month.\n\nRegion: USA\n\nSource: https://wineinternationalassociatio
+ n.org/wine-days-calendar-2026/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prosecco-week@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260622
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3MO
+SUMMARY:Prosecco Week
+DESCRIPTION:Sources disagree badly on this one — third week of June\, 11-
+ 16 June\, and 24-30 June all appear. Verify before relying on it.\n\nRegio
+ n: Italy\n\nHeads up: sources disagree on this date — worth checking bef
+ ore you plan around it.\n\nSource: https://winetimefridays.com/wine-days/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2026@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260629
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chenin-blanc-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=3SA
+SUMMARY:Drink Chenin Blanc Day
+DESCRIPTION:Chenin from the Loire and South Africa. Dates in the wild range
+  across 13\, 14\, 18 and 20 June — the third Saturday is the most defens
+ ible reading.\n\nRegion: South Africa\, France\n\nHeads up: sources disagr
+ ee on this date — worth checking before you plan around it.\n\nSource: h
+ ttps://wineinternationalassociation.org/wine-days-calendar-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lambrusco-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=21
+SUMMARY:World Lambrusco Day
+DESCRIPTION:Emilia-Romagna's sparkling red\, set on the summer solstice.\n\
+ nRegion: Italy\n\nSource: https://lambruscofest.com/festa/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:international-rose-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+RRULE:FREQ=YEARLY;BYMONTH=6;BYDAY=4FR
+SUMMARY:International Rose Day
+DESCRIPTION:The global rose day\, as opposed to the US-focused National Ros
+ e Day two weeks earlier.\n\nSource: https://wineinternationalassociation.o
+ rg/wine-days-calendar-2026/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkling-wine-week@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260708
+RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=1
+SUMMARY:Sparkling Wine Week
+DESCRIPTION:Described only as 'the first week of July'\, which no source pi
+ ns down precisely. Set here as 1-7 July.\n\nHeads up: sources disagree on 
+ this date — worth checking before you plan around it.\n\nSource: https:/
+ /winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cava-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=12
+SUMMARY:International Cava Day
+DESCRIPTION:Spain's traditional-method sparkling wine. Most calendars say 1
+ 2 July\; one says the second Saturday of July.\n\nRegion: Spain\n\nHeads u
+ p: sources disagree on this date — worth checking before you plan around
+  it.\n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grap
+ e-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:shiraz-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+RRULE:FREQ=YEARLY;BYMONTH=7;BYDAY=4TH
+SUMMARY:International Shiraz Day
+DESCRIPTION:The Australian expression of Syrah\, which has its own separate
+  day in February.\n\nRegion: Australia\n\nSource: https://www.mastermindco
+ nsulting.com.au/blog/shirazday/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wine-and-cheese-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=25
+SUMMARY:National Wine & Cheese Day
+DESCRIPTION:Self-explanatory.\n\nRegion: USA\n\nSource: https://www.wsetglo
+ bal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:fun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:albarino-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=1
+SUMMARY:World Albarino Day
+DESCRIPTION:Rias Baixas' white grape. In Cambados the Festa do Albarino run
+ s for roughly the first five days of August — the second-oldest wine fes
+ tival in Spain.\n\nRegion: Spain\n\nSource: https://albarinoday.co.uk/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:old-vine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=1
+SUMMARY:Old Vine Day
+DESCRIPTION:Marks the founding of South Africa's Old Vine Project in 2016.\
+ n\nRegion: South Africa\n\nSource: https://travellingcorkscrew.com.au/blog
+ /international-wine-days/
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:white-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=4
+SUMMARY:National White Wine Day
+DESCRIPTION:White wine of any kind.\n\nRegion: USA\n\nSource: https://winei
+ nternationalassociation.org/wine-days-calendar-2026/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:verdelho-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=8
+SUMMARY:National Verdelho Day
+DESCRIPTION:Declared by Tulloch Wines in 2025 for the Hunter Valley's Verde
+ lho\, on 8/8. New\, and backed by a single winery — but a real\, dated c
+ laim.\n\nRegion: Australia\n\nSource: https://www.tullochwines.com/blog/ne
+ ws/august-8th-is-officially-national-verdelho-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prosecco-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=13
+SUMMARY:International Prosecco Day
+DESCRIPTION:Glera-based sparkling wine from Veneto and Friuli.\n\nRegion: I
+ taly\n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grap
+ e-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pinot-noir-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=18
+SUMMARY:International Pinot Noir Day
+DESCRIPTION:Burgundy\, Oregon\, Central Otago and everywhere else that chas
+ es it.\n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/gr
+ ape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:red-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=28
+SUMMARY:National Red Wine Day
+DESCRIPTION:Red wine of any kind.\n\nRegion: USA\n\nSource: https://wineint
+ ernationalassociation.org/wine-days-calendar-2026/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cap-classique-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=1
+SUMMARY:Cap Classique Day
+DESCRIPTION:South Africa's traditional-method sparkling wine\, on the first
+  day of Cape spring.\n\nRegion: South Africa\n\nSource: https://www.wsetgl
+ obal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bordeaux-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=1
+SUMMARY:Bordeaux Wine Month (UK)
+DESCRIPTION:UK-wide trade promotion run by the Bordeaux wine council across
+  130+ merchants and bars.\n\nRegion: France / UK trade\n\nSource: https://
+ www.bordeaux.com/en/mag/blog/celebrate-the-diversity-of-bordeaux-wines-thi
+ s-september/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2026@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chianti-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=1FR
+SUMMARY:National Chianti Day
+DESCRIPTION:Tuscany's Sangiovese-based classic.\n\nRegion: Italy\n\nSource:
+  https://wineinternationalassociation.org/wine-days-calendar-2026/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:box-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=9
+SUMMARY:International Box Wine Day
+DESCRIPTION:Started in 2021 by Wine Nook. Bag-in-box\, unapologetically.\n\
+ nSource: https://travellingcorkscrew.com.au/blog/international-wine-days/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:port-wine-day-september@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=10
+SUMMARY:National Port Wine Day
+DESCRIPTION:The more widely listed of the two Port days\, promoted by Rota 
+ do Douro.\n\nRegion: Portugal\n\nSource: https://rotadodouro.pt/en/port-wi
+ ne-day/
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grenache-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=3FR
+SUMMARY:International Grenache Day
+DESCRIPTION:Confirmed by the Grenache Association itself: every third Frida
+ y of September. Garnacha in Spain.\n\nRegion: France\, Spain\n\nSource: ht
+ tp://www.grenache-association.com/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:virginia-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Virginia Wine Month
+DESCRIPTION:Official month-long promotion by Virginia Wine.\n\nRegion: Virg
+ inia\, USA\n\nSource: https://www.virginiawine.org/virginia-wine-month
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Texas Wine Month
+DESCRIPTION:Month-long promotion of Texas wine.\n\nRegion: Texas\, USA\n\nS
+ ource: https://txwinelover.com/national-and-international-wine-days/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:georgian-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Georgian Wine Month (UK)
+DESCRIPTION:UK-wide trade promotion by Wines of Georgia\, launched each yea
+ r on International Orange Wine Day.\n\nRegion: Georgia / UK trade\n\nSourc
+ e: https://www.winesgeorgia.uk/events-summary/georgian-wine-month
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rioja-wine-month@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Rioja Wine Month (UK)
+DESCRIPTION:UK retail and restaurant promotion of Rioja.\n\nRegion: Spain /
+  UK trade\n\nSource: https://www.buyrioja.co.uk/riojawinemonth
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:moldova-national-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SA
+SUMMARY:National Wine Day of Moldova
+DESCRIPTION:Ziua Nationala a Vinului — the largest wine event in Eastern 
+ Europe\, held on the first weekend of October in Chisinau. Established by 
+ government decree in 2002.\n\nRegion: Moldova\n\nSource: https://wineday.w
+ ineofmoldova.com/en
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vranec-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=5
+SUMMARY:World Vranec Day
+DESCRIPTION:North Macedonia's dark\, tannic native red.\n\nRegion: North Ma
+ cedonia\n\nHeads up: sources disagree on this date — worth checking befo
+ re you plan around it.\n\nSource: https://www.wsetglobal.com/knowledge-cen
+ tre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:orange-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=6
+SUMMARY:International Orange Wine Day
+DESCRIPTION:Skin-contact white wine. One source dates it 5 October\; 6 Octo
+ ber is the more common listing.\n\nSource: https://www.wsetglobal.com/know
+ ledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mexican-wine-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=7
+SUMMARY:Mexican Wine Day
+DESCRIPTION:Established in 2023 for the wines of Baja California and beyond
+ .\n\nRegion: Mexico\n\nSource: https://travellingcorkscrew.com.au/blog/int
+ ernational-wine-days/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pinotage-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=2SA
+SUMMARY:International Pinotage Day
+DESCRIPTION:South Africa's own crossing of Pinot Noir and Cinsault\, create
+ d in 1925.\n\nRegion: South Africa\n\nSource: https://winemag.co.za/wine/o
+ pinion/melvyn-minnaar-those-quirky-international-wine-days/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:drink-local-wine-week@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261019
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=2MO
+SUMMARY:Drink Local Wine Week
+DESCRIPTION:Described as the 'second full week of October'\, which is ambig
+ uous. Set here as the week starting the second Monday.\n\nRegion: USA\n\nH
+ eads up: sources disagree on this date — worth checking before you plan 
+ around it.\n\nSource: http://www.drinklocalwine.com/
+CATEGORIES:trade
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prokupac-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=14
+SUMMARY:Prokupac Day
+DESCRIPTION:Serbia's flagship native red.\n\nRegion: Serbia\n\nHeads up: so
+ urces disagree on this date — worth checking before you plan around it.\
+ n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and
+ -wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:champagne-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=4FR
+SUMMARY:World Champagne Day
+DESCRIPTION:Run by the Comite Champagne. Distinct from National Champagne D
+ ay on 31 December.\n\nRegion: France\n\nSource: https://champagneday.champ
+ agne.fr/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mavrud-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=26
+SUMMARY:International Mavrud Day
+DESCRIPTION:Bulgaria's native red\, set on St Dimitar's Day.\n\nRegion: Bul
+ garia\n\nHeads up: sources disagree on this date — worth checking before
+  you plan around it.\n\nSource: https://www.wsetglobal.com/knowledge-centr
+ e/blog/2024/wine-and-grape-days-2025
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:carignan-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1TH
+SUMMARY:International Carignan Day
+DESCRIPTION:Old-vine Carignan from the Languedoc\, Priorat and Chile's Maul
+ e.\n\nRegion: France\, Spain\, Chile\n\nSource: https://www.wsetglobal.com
+ /knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:xinomavro-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=1
+SUMMARY:International Xinomavro Day
+DESCRIPTION:Greece's noble red from Naoussa and Amyndeon\, often compared t
+ o Nebbiolo. Promoted by Wines of Greece.\n\nRegion: Greece\n\nSource: http
+ s://winesofgreece.org/international-xinomavro-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sherry-week@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261109
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1MO
+SUMMARY:International Sherry Week
+DESCRIPTION:Run by the Consejo Regulador of Jerez-Xeres-Sherry\, with event
+ s in 30+ countries. First full week of November\, Monday to Sunday.\n\nReg
+ ion: Spain\n\nSource: https://www.sherry.wine/sherryweek
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:merlot-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=7
+SUMMARY:International Merlot Day
+DESCRIPTION:Bordeaux's most-planted grape\, still recovering its reputation
+  from Sideways.\n\nSource: https://www.wsetglobal.com/knowledge-centre/blo
+ g/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wine-in-moderation-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=8
+SUMMARY:Wine in Moderation Day
+DESCRIPTION:European wine sector programme promoting responsible drinking.\
+ n\nSource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and
+ -wine-days-2026
+CATEGORIES:trade
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:martinovanje@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11
+SUMMARY:St Martin's Day (Martinovanje)
+DESCRIPTION:The day St Martin traditionally turns the must into wine. One o
+ f the biggest wine holidays across Central Europe\, marking the young wine
+ 's release.\n\nRegion: Slovenia\, Croatia\, Austria\, Hungary\n\nSource: h
+ ttps://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/
+CATEGORIES:tradition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tempranillo-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=2TH
+SUMMARY:International Tempranillo Day
+DESCRIPTION:Spain's flagship red\, from Rioja and Ribera del Duero.\n\nRegi
+ on: Spain\n\nSource: https://wineinternationalassociation.org/wine-days-ca
+ lendar-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:zinfandel-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=3WE
+SUMMARY:National Zinfandel Day
+DESCRIPTION:Run by ZAP\, the Zinfandel Advocates and Producers.\n\nRegion: 
+ California\, USA\n\nSource: https://wineinternationalassociation.org/wine-
+ days-calendar-2026/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=3TH
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:The release of the year's Gamay\, at 12:01am on the third Thurs
+ day of November. The date is set in French law.\n\nRegion: France\n\nSourc
+ e: https://drinkthis.substack.com/p/what-is-beaujolais-nouveau-day
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:carmenere-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=24
+SUMMARY:International Carmenere Day
+DESCRIPTION:Created in 2014 for Chile's emblematic red\, lost to phylloxera
+  in Bordeaux and rediscovered in Chile in 1994 after decades mistaken for 
+ Merlot.\n\nRegion: Chile\n\nSource: https://www.wsetglobal.com/knowledge-c
+ entre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:saperavi-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=30
+SUMMARY:International Saperavi Day
+DESCRIPTION:Georgia's teinturier red — one of the few grapes with red fle
+ sh as well as red skin.\n\nRegion: Georgia\n\nHeads up: sources disagree o
+ n this date — worth checking before you plan around it.\n\nSource: https
+ ://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maratheftiko-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=1
+SUMMARY:International Maratheftiko Day
+DESCRIPTION:Cyprus's rare native red.\n\nRegion: Cyprus\n\nHeads up: source
+ s disagree on this date — worth checking before you plan around it.\n\nS
+ ource: https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-win
+ e-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-franc-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=4
+SUMMARY:International Cabernet Franc Day
+DESCRIPTION:Started by Social Vignerons to argue Cabernet Franc is more tha
+ n a blending grape. Parent of both Cabernet Sauvignon and Merlot.\n\nRegio
+ n: France\n\nSource: http://socialvignerons.com/2015/09/07/give-cab-franc-
+ its-day-its-more-than-a-blending-grape/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aszu-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=10
+SUMMARY:World Tokaj Aszu Day
+DESCRIPTION:Hungary's botrytised sweet wine from Tokaj\, the world's first 
+ classified wine region (1730).\n\nRegion: Hungary\n\nSource: https://www.w
+ setglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pinot-meunier-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=16
+SUMMARY:Pinot Meunier Day
+DESCRIPTION:The third and least-discussed of the three main Champagne grape
+ s.\n\nRegion: France\n\nHeads up: sources disagree on this date — worth 
+ checking before you plan around it.\n\nSource: https://www.wsetglobal.com/
+ knowledge-centre/blog/2025/grape-and-wine-days-2026
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sangria-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=20
+SUMMARY:National Sangria Day
+DESCRIPTION:Sangria in the depths of December\, for reasons nobody explains
+ .\n\nRegion: USA\n\nSource: https://winefolly.com/lifestyle/national-wine-
+ day/
+CATEGORIES:fun
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:national-champagne-day@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=31
+SUMMARY:National Champagne Day
+DESCRIPTION:New Year's Eve. Distinct from World Champagne Day in October.\n
+ \nSource: https://wineinternationalassociation.org/wine-days-calendar-2026
+ /
+CATEGORIES:style
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2027@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2027@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270628
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2027@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2028@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2028@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20280617
+DTEND;VALUE=DATE:20280626
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2028@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2029@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20290524
+DTEND;VALUE=DATE:20290525
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2029@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20290616
+DTEND;VALUE=DATE:20290625
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2029@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20290830
+DTEND;VALUE=DATE:20290831
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2030@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20300523
+DTEND;VALUE=DATE:20300524
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2030@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20300615
+DTEND;VALUE=DATE:20300701
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2030@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20300829
+DTEND;VALUE=DATE:20300830
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2031@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20310522
+DTEND;VALUE=DATE:20310523
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2031@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20310621
+DTEND;VALUE=DATE:20310630
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2031@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20310828
+DTEND;VALUE=DATE:20310829
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2032@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20320527
+DTEND;VALUE=DATE:20320528
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2032@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20320619
+DTEND;VALUE=DATE:20320628
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2032@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20320902
+DTEND;VALUE=DATE:20320903
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2033@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20330526
+DTEND;VALUE=DATE:20330527
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2033@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20330618
+DTEND;VALUE=DATE:20330627
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2033@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20330901
+DTEND;VALUE=DATE:20330902
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2034@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20340525
+DTEND;VALUE=DATE:20340526
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2034@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20340617
+DTEND;VALUE=DATE:20340626
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2034@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20340831
+DTEND;VALUE=DATE:20340901
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2035@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20350524
+DTEND;VALUE=DATE:20350525
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2035@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20350616
+DTEND;VALUE=DATE:20350625
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2035@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20350830
+DTEND;VALUE=DATE:20350831
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2036@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20360522
+DTEND;VALUE=DATE:20360523
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2036@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20360621
+DTEND;VALUE=DATE:20360630
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2036@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20360828
+DTEND;VALUE=DATE:20360829
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2037@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20370521
+DTEND;VALUE=DATE:20370522
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2037@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20370620
+DTEND;VALUE=DATE:20370629
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2037@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20370903
+DTEND;VALUE=DATE:20370904
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2038@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20380527
+DTEND;VALUE=DATE:20380528
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2038@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20380619
+DTEND;VALUE=DATE:20380628
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2038@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20380902
+DTEND;VALUE=DATE:20380903
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2039@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20390526
+DTEND;VALUE=DATE:20390527
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2039@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20390618
+DTEND;VALUE=DATE:20390627
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2039@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20390901
+DTEND;VALUE=DATE:20390902
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2040@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20400524
+DTEND;VALUE=DATE:20400525
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2040@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20400616
+DTEND;VALUE=DATE:20400625
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2040@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20400830
+DTEND;VALUE=DATE:20400831
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2041@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20410523
+DTEND;VALUE=DATE:20410524
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2041@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20410615
+DTEND;VALUE=DATE:20410701
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2041@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20410829
+DTEND;VALUE=DATE:20410830
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2042@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20420522
+DTEND;VALUE=DATE:20420523
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2042@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20420621
+DTEND;VALUE=DATE:20420630
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2042@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20420828
+DTEND;VALUE=DATE:20420829
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2043@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20430521
+DTEND;VALUE=DATE:20430522
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2043@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20430620
+DTEND;VALUE=DATE:20430629
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2043@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20430903
+DTEND;VALUE=DATE:20430904
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2044@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20440526
+DTEND;VALUE=DATE:20440527
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2044@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20440618
+DTEND;VALUE=DATE:20440627
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2044@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20440901
+DTEND;VALUE=DATE:20440902
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2045@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20450525
+DTEND;VALUE=DATE:20450526
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2045@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20450617
+DTEND;VALUE=DATE:20450626
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2045@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20450831
+DTEND;VALUE=DATE:20450901
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2046@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20460524
+DTEND;VALUE=DATE:20460525
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2046@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20460616
+DTEND;VALUE=DATE:20460625
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2046@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20460830
+DTEND;VALUE=DATE:20460831
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2047@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20470523
+DTEND;VALUE=DATE:20470524
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2047@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20470615
+DTEND;VALUE=DATE:20470701
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2047@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20470829
+DTEND;VALUE=DATE:20470830
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2048@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20480521
+DTEND;VALUE=DATE:20480522
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2048@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20480620
+DTEND;VALUE=DATE:20480629
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2048@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20480903
+DTEND;VALUE=DATE:20480904
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2049@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20490527
+DTEND;VALUE=DATE:20490528
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2049@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20490619
+DTEND;VALUE=DATE:20490628
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2049@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20490902
+DTEND;VALUE=DATE:20490903
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chardonnay-day-2050@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20500526
+DTEND;VALUE=DATE:20500527
+SUMMARY:International Chardonnay Day
+DESCRIPTION:Created by Rick Bakas\, deliberately set on the Thursday before
+  US Memorial Day weekend.\n\nSource: https://winefolly.com/lifestyle/natio
+ nal-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:english-wine-week-2050@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20500618
+DTEND;VALUE=DATE:20500627
+SUMMARY:English Wine Week
+DESCRIPTION:Set each year by WineGB: third Saturday of June through the las
+ t Sunday of June. Nine days despite the name.\n\nRegion: England\n\nSource
+ : https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/
+CATEGORIES:region
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cabernet-sauvignon-day-2050@wine-holidays
+DTSTAMP:20260818T000000Z
+DTSTART;VALUE=DATE:20500901
+DTEND;VALUE=DATE:20500902
+SUMMARY:International Cabernet Sauvignon Day
+DESCRIPTION:Created by Rick Bakas as the Labor Day counterpart to his Chard
+ onnay Day. Some calendars instead list the first Thursday of September or 
+ a fixed 30 August — those are drifted retellings of this rule.\n\nSource
+ : https://winefolly.com/lifestyle/national-wine-day/
+CATEGORIES:grape
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
