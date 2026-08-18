@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Wine Holidays
 X-WR-CALDESC:Grape days\, wine weeks and wine-country traditions from aroun
- d the world. 85 entries. Updated 2026-08-18.
+ d the world. 84 entries. Updated 2026-08-18.
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:P7D
 X-PUBLISHED-TTL:P7D
@@ -127,22 +127,6 @@ SUMMARY:International Mulled Wine Day
 DESCRIPTION:A late-winter send-off for gluhwein\, vin chaud and glogg.\n\nS
  ource: https://nationaldaycalendar.com/national-mulled-wine-day-march-3/
 CATEGORIES:style
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:nebbiolo-day@wine-holidays
-DTSTAMP:20260818T000000Z
-DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260304
-RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=3
-SUMMARY:Nebbiolo Day
-DESCRIPTION:Trade tasting in London run with the Barolo\, Barbaresco and Va
- ltellina consortia. The date moves year to year — it was 3 March in 2026
-  — so treat this as a placeholder and check wsta.co.uk each winter.\n\nR
- egion: Italy\n\nHeads up: sources disagree on this date — worth checking
-  before you plan around it.\n\nSource: https://wsta.co.uk/trade-diary/nebb
- iolo-day-2026/
-CATEGORIES:grape
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

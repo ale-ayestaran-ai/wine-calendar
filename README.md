@@ -5,7 +5,7 @@ A subscribable calendar feed of wine holidays from around the world — grape da
 wine weeks and months, and traditional wine-country holidays like St Martin's Day
 and Bulgaria's Trifon Zarezan.
 
-85 entries. Subscribe once and they show up every year.
+84 entries. Subscribe once and they show up every year.
 
 ## Subscribe
 
@@ -77,7 +77,6 @@ where each date came from.
 
 Most entries need nothing. Check these each winter:
 
-- **Nebbiolo Day** — a London trade tasting whose date moves; currently a placeholder
 - **Prosecco Week** — sources give three different date ranges
 - **Sparkling Wine Week** / **Drink Local Wine Week** — "first/second full week of"
   is never pinned down precisely

@@ -14,862 +14,1369 @@
       "low": "Sources disagree, or only one source found — check before relying on it"
     }
   },
-
   "holidays": [
     {
       "slug": "st-vincent-day",
       "name": "St Vincent's Day (Winemakers' Patron Saint)",
-      "rule": { "type": "fixed", "month": 1, "day": 22 },
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 22
+      },
       "category": "tradition",
       "region": "France, Slovenia, Croatia",
       "confidence": "high",
       "description": "Feast of St Vincent, patron saint of winegrowers. Marked as Vincencovo in Slovenia and Croatia, and by the Saint-Vincent Tournante procession that rotates between villages in Burgundy.",
-      "sources": ["https://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/"]
+      "sources": [
+        "https://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/"
+      ]
     },
     {
       "slug": "port-wine-day-january",
       "name": "International Port Wine Day",
-      "rule": { "type": "fixed", "month": 1, "day": 27 },
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 27
+      },
       "category": "style",
       "region": "Portugal",
       "confidence": "low",
       "description": "A day for Portugal's fortified wine from the Douro. Note there are two competing Port days — this one and 10 September. Both are in this calendar.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "furmint-day",
       "name": "International Furmint Day",
-      "rule": { "type": "fixed", "month": 2, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 1
+      },
       "category": "grape",
       "region": "Hungary",
       "confidence": "medium",
       "description": "Hungary's flagship white grape, behind both dry Tokaj wines and sweet Tokaji Aszu.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "trifon-zarezan",
       "name": "Trifon Zarezan — Day of Winegrowers and Winemakers",
-      "rule": { "type": "fixed", "month": 2, "day": 14 },
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 14
+      },
       "category": "tradition",
       "region": "Bulgaria",
       "confidence": "high",
       "description": "Bulgaria's vine-pruning festival honouring St Tryphon, patron of winemakers. The Orthodox church moved the feast to 1 February in 1968, but the country still keeps the growers' day on 14 February.",
-      "sources": ["https://en.wikipedia.org/wiki/Trifon_Zarezan", "https://www.bulwine.com/bulgarian-wine-news-bulwine.com/bulgaria-wine-day-winegrowers-winemakers"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trifon_Zarezan",
+        "https://www.bulwine.com/bulgarian-wine-news-bulwine.com/bulgaria-wine-day-winegrowers-winemakers"
+      ]
     },
     {
       "slug": "syrah-day",
       "name": "International Syrah Day",
-      "rule": { "type": "fixed", "month": 2, "day": 16 },
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 16
+      },
       "category": "grape",
       "region": "International",
       "confidence": "medium",
       "description": "The Northern Rhone's great red grape, known as Shiraz in Australia (which has its own separate day in July).",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "drink-wine-day",
       "name": "Global Drink Wine Day",
-      "rule": { "type": "fixed", "month": 2, "day": 18 },
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 18
+      },
       "category": "fun",
       "region": "International",
       "confidence": "medium",
       "description": "A general-purpose excuse. No grape, no region, no rules.",
-      "sources": ["http://nationaldrinkwineday.org/"]
+      "sources": [
+        "http://nationaldrinkwineday.org/"
+      ]
     },
     {
       "slug": "open-that-bottle-night",
       "name": "Open That Bottle Night",
-      "rule": { "type": "nth_weekday", "month": 2, "weekday": "SA", "n": -1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "weekday": "SA",
+        "n": -1
+      },
       "category": "fun",
       "region": "International",
       "confidence": "high",
       "description": "Started by the Wall Street Journal's wine columnists: the night you finally drink the special bottle you have been saving for an occasion that never comes.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "mulled-wine-day",
       "name": "International Mulled Wine Day",
-      "rule": { "type": "fixed", "month": 3, "day": 3 },
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 3
+      },
       "category": "style",
       "region": "International",
       "confidence": "medium",
       "description": "A late-winter send-off for gluhwein, vin chaud and glogg.",
-      "sources": ["https://nationaldaycalendar.com/national-mulled-wine-day-march-3/"]
-    },
-    {
-      "slug": "nebbiolo-day",
-      "name": "Nebbiolo Day",
-      "rule": { "type": "fixed", "month": 3, "day": 3 },
-      "category": "grape",
-      "region": "Italy",
-      "confidence": "low",
-      "description": "Trade tasting in London run with the Barolo, Barbaresco and Valtellina consortia. The date moves year to year — it was 3 March in 2026 — so treat this as a placeholder and check wsta.co.uk each winter.",
-      "sources": ["https://wsta.co.uk/trade-diary/nebbiolo-day-2026/"]
+      "sources": [
+        "https://nationaldaycalendar.com/national-mulled-wine-day-march-3/"
+      ]
     },
     {
       "slug": "riesling-day",
       "name": "International Riesling Day",
-      "rule": { "type": "fixed", "month": 3, "day": 13 },
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 13
+      },
       "category": "grape",
       "region": "Germany",
       "confidence": "medium",
       "description": "Riesling's birthday — the date of the first written record of the grape, in a 1435 cellar inventory.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "washington-wine-month",
       "name": "Washington Wine Month",
-      "rule": { "type": "month", "month": 3 },
+      "rule": {
+        "type": "month",
+        "month": 3
+      },
       "category": "region",
       "region": "Washington, USA",
       "confidence": "medium",
       "description": "Month-long promotion of Washington State wine.",
-      "sources": ["https://winetimefridays.com/wine-days/"]
+      "sources": [
+        "https://winetimefridays.com/wine-days/"
+      ]
     },
     {
       "slug": "vermouth-day",
       "name": "World Vermouth Day",
-      "rule": { "type": "fixed", "month": 3, "day": 21 },
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 21
+      },
       "category": "style",
       "region": "Italy, Spain, France",
       "confidence": "medium",
       "description": "Aromatised, fortified wine — Turin, Chambery and Reus all have a claim.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "tannat-day",
       "name": "Tannat Day",
-      "rule": { "type": "fixed", "month": 4, "day": 14 },
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 14
+      },
       "category": "grape",
       "region": "Uruguay",
       "confidence": "high",
       "description": "Uruguay's signature red, originally from Madiran in south-west France. Promoted by Wines of Uruguay.",
-      "sources": ["https://www.uruguay.wine/journal/tannatday"]
+      "sources": [
+        "https://www.uruguay.wine/journal/tannatday"
+      ]
     },
     {
       "slug": "malbec-day",
       "name": "World Malbec Day",
-      "rule": { "type": "fixed", "month": 4, "day": 17 },
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 17
+      },
       "category": "grape",
       "region": "Argentina",
       "confidence": "high",
       "description": "Marks 17 April 1853, when Argentine president Sarmiento formally set out to build the country's wine industry — with Malbec at the centre. Run by Wines of Argentina.",
-      "sources": ["https://www.malbecworldday.com/"]
+      "sources": [
+        "https://www.malbecworldday.com/"
+      ]
     },
     {
       "slug": "viognier-day",
       "name": "International Viognier Day",
-      "rule": { "type": "nth_weekday", "month": 4, "weekday": "FR", "n": -1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 4,
+        "weekday": "FR",
+        "n": -1
+      },
       "category": "grape",
       "region": "France",
       "confidence": "medium",
       "description": "The aromatic white of Condrieu, now also grown in California and Australia.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "qvevri-day",
       "name": "International Qvevri Day",
-      "rule": { "type": "fixed", "month": 4, "day": 26 },
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 26
+      },
       "category": "tradition",
       "region": "Georgia",
       "confidence": "low",
       "description": "The buried clay vessel at the heart of Georgian winemaking, a UNESCO-listed practice.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "marselan-day",
       "name": "World Marselan Day",
-      "rule": { "type": "fixed", "month": 4, "day": 27 },
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 27
+      },
       "category": "grape",
       "region": "France, China",
       "confidence": "medium",
       "description": "A 1961 crossing of Cabernet Sauvignon and Grenache, increasingly seen as China's signature red.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "sauvignon-blanc-day",
       "name": "International Sauvignon Blanc Day",
-      "rule": { "type": "nth_weekday", "month": 5, "weekday": "FR", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "weekday": "FR",
+        "n": 1
+      },
       "category": "grape",
       "region": "New Zealand, France",
       "confidence": "high",
       "description": "Started by New Zealand Winegrowers, timed to the Marlborough harvest.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "baga-day",
       "name": "International Baga Day",
-      "rule": { "type": "nth_weekday", "month": 5, "weekday": "SA", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "weekday": "SA",
+        "n": 1
+      },
       "category": "grape",
       "region": "Portugal",
       "confidence": "medium",
       "description": "Bairrada's tannic native red.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-2025"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-2025"
+      ]
     },
     {
       "slug": "oregon-wine-month",
       "name": "Oregon Wine Month",
-      "rule": { "type": "month", "month": 5 },
+      "rule": {
+        "type": "month",
+        "month": 5
+      },
       "category": "region",
       "region": "Oregon, USA",
       "confidence": "high",
       "description": "Month-long promotion by the Oregon Wine Board.",
-      "sources": ["https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"]
+      "sources": [
+        "https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"
+      ]
     },
     {
       "slug": "moscato-day",
       "name": "World Moscato Day",
-      "rule": { "type": "fixed", "month": 5, "day": 9 },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      },
       "category": "grape",
       "region": "Italy",
       "confidence": "medium",
       "description": "Muscat in all its forms, from Asti to Rutherglen.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "pinot-grigio-day",
       "name": "Pinot Grigio Day",
-      "rule": { "type": "fixed", "month": 5, "day": 17 },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 17
+      },
       "category": "grape",
       "region": "Italy",
       "confidence": "medium",
       "description": "Italy's most exported white. One source puts this on 26 May instead.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "mourvedre-day",
       "name": "National Mourvedre Day",
-      "rule": { "type": "fixed", "month": 5, "day": 21 },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 21
+      },
       "category": "grape",
       "region": "USA, France, Spain",
       "confidence": "low",
       "description": "Declared by Texas Wine Lover in 2017 to fill a gap in the calendar. The M in GSM; Monastrell in Spain.",
-      "sources": ["https://txwinelover.com/national-and-international-wine-days/"]
+      "sources": [
+        "https://txwinelover.com/national-and-international-wine-days/"
+      ]
     },
     {
       "slug": "chardonnay-day",
       "name": "International Chardonnay Day",
-      "rule": { "type": "computed", "fn": "thursdayBeforeMemorialDay" },
+      "rule": {
+        "type": "computed",
+        "fn": "thursdayBeforeMemorialDay"
+      },
       "category": "grape",
       "region": "International",
       "confidence": "high",
       "description": "Created by Rick Bakas, deliberately set on the Thursday before US Memorial Day weekend.",
-      "sources": ["https://winefolly.com/lifestyle/national-wine-day/"]
+      "sources": [
+        "https://winefolly.com/lifestyle/national-wine-day/"
+      ]
     },
     {
       "slug": "judgment-of-paris",
       "name": "Anniversary of the Judgment of Paris",
-      "rule": { "type": "fixed", "month": 5, "day": 24 },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 24
+      },
       "category": "tradition",
       "region": "USA, France",
       "confidence": "high",
       "description": "The 1976 blind tasting where California wines beat the best of Bordeaux and Burgundy in front of French judges, and the wine world rearranged itself.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "national-wine-day",
       "name": "National Wine Day",
-      "rule": { "type": "fixed", "month": 5, "day": 25 },
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 25
+      },
       "category": "fun",
       "region": "USA",
       "confidence": "medium",
       "description": "Wine in general, no qualifiers. Distinct from Global Drink Wine Day in February.",
-      "sources": ["https://winefolly.com/lifestyle/national-wine-day/"]
+      "sources": [
+        "https://winefolly.com/lifestyle/national-wine-day/"
+      ]
     },
     {
       "slug": "sommelier-day",
       "name": "International Sommelier Day",
-      "rule": { "type": "fixed", "month": 6, "day": 3 },
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 3
+      },
       "category": "trade",
       "region": "International",
       "confidence": "low",
       "description": "A day for the people pouring rather than the wine itself.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "bubbly-day",
       "name": "National Bubbly Day",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "SA", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "SA",
+        "n": 1
+      },
       "category": "style",
       "region": "USA",
       "confidence": "medium",
       "description": "Sparkling wine of any origin.",
-      "sources": ["https://txwinelover.com/national-and-international-wine-days/"]
+      "sources": [
+        "https://txwinelover.com/national-and-international-wine-days/"
+      ]
     },
     {
       "slug": "idaho-wine-month",
       "name": "Idaho Wine Month",
-      "rule": { "type": "month", "month": 6 },
+      "rule": {
+        "type": "month",
+        "month": 6
+      },
       "category": "region",
       "region": "Idaho, USA",
       "confidence": "medium",
       "description": "Month-long promotion of Idaho wine.",
-      "sources": ["https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"]
+      "sources": [
+        "https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"
+      ]
     },
     {
       "slug": "durif-day",
       "name": "Durif Day (Petite Sirah)",
-      "rule": { "type": "fixed", "month": 6, "day": 10 },
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 10
+      },
       "category": "grape",
       "region": "Australia",
       "confidence": "high",
       "description": "Claimed by the Riverina Winemakers Association in Australia. Durif and Petite Sirah are the same grape — a Syrah x Peloursin crossing.",
-      "sources": ["https://www.riverinawinemakers.com.au/durif-day"]
+      "sources": [
+        "https://www.riverinawinemakers.com.au/durif-day"
+      ]
     },
     {
       "slug": "verdejo-day",
       "name": "World Verdejo Day",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "FR", "n": 2 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "FR",
+        "n": 2
+      },
       "category": "grape",
       "region": "Spain",
       "confidence": "low",
       "description": "Rueda's white grape. Sources split between the second Friday and the second Thursday of June.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "national-rose-day",
       "name": "National Rose Day",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "SA", "n": 2 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "SA",
+        "n": 2
+      },
       "category": "style",
       "region": "USA",
       "confidence": "high",
       "description": "The US rose day. Not the same as International Rose Day later in the month.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "prosecco-week",
       "name": "Prosecco Week",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "MO", "n": 3 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "MO",
+        "n": 3
+      },
       "durationDays": 7,
       "category": "style",
       "region": "Italy",
       "confidence": "low",
       "description": "Sources disagree badly on this one — third week of June, 11-16 June, and 24-30 June all appear. Verify before relying on it.",
-      "sources": ["https://winetimefridays.com/wine-days/"]
+      "sources": [
+        "https://winetimefridays.com/wine-days/"
+      ]
     },
     {
       "slug": "english-wine-week",
       "name": "English Wine Week",
-      "rule": { "type": "computed", "fn": "englishWineWeek" },
+      "rule": {
+        "type": "computed",
+        "fn": "englishWineWeek"
+      },
       "category": "region",
       "region": "England",
       "confidence": "high",
       "description": "Set each year by WineGB: third Saturday of June through the last Sunday of June. Nine days despite the name.",
-      "sources": ["https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/"]
+      "sources": [
+        "https://www.awarenessdays.com/awareness-days-calendar/english-wine-week/"
+      ]
     },
     {
       "slug": "chenin-blanc-day",
       "name": "Drink Chenin Blanc Day",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "SA", "n": 3 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "SA",
+        "n": 3
+      },
       "category": "grape",
       "region": "South Africa, France",
       "confidence": "low",
       "description": "Chenin from the Loire and South Africa. Dates in the wild range across 13, 14, 18 and 20 June — the third Saturday is the most defensible reading.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "lambrusco-day",
       "name": "World Lambrusco Day",
-      "rule": { "type": "fixed", "month": 6, "day": 21 },
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 21
+      },
       "category": "style",
       "region": "Italy",
       "confidence": "high",
       "description": "Emilia-Romagna's sparkling red, set on the summer solstice.",
-      "sources": ["https://lambruscofest.com/festa/"]
+      "sources": [
+        "https://lambruscofest.com/festa/"
+      ]
     },
     {
       "slug": "international-rose-day",
       "name": "International Rose Day",
-      "rule": { "type": "nth_weekday", "month": 6, "weekday": "FR", "n": 4 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "weekday": "FR",
+        "n": 4
+      },
       "category": "style",
       "region": "International",
       "confidence": "high",
       "description": "The global rose day, as opposed to the US-focused National Rose Day two weeks earlier.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "sparkling-wine-week",
       "name": "Sparkling Wine Week",
-      "rule": { "type": "fixed", "month": 7, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      },
       "durationDays": 7,
       "category": "style",
       "region": "International",
       "confidence": "low",
       "description": "Described only as 'the first week of July', which no source pins down precisely. Set here as 1-7 July.",
-      "sources": ["https://winefolly.com/lifestyle/national-wine-day/"]
+      "sources": [
+        "https://winefolly.com/lifestyle/national-wine-day/"
+      ]
     },
     {
       "slug": "cava-day",
       "name": "International Cava Day",
-      "rule": { "type": "fixed", "month": 7, "day": 12 },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 12
+      },
       "category": "style",
       "region": "Spain",
       "confidence": "low",
       "description": "Spain's traditional-method sparkling wine. Most calendars say 12 July; one says the second Saturday of July.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "shiraz-day",
       "name": "International Shiraz Day",
-      "rule": { "type": "nth_weekday", "month": 7, "weekday": "TH", "n": 4 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "weekday": "TH",
+        "n": 4
+      },
       "category": "grape",
       "region": "Australia",
       "confidence": "medium",
       "description": "The Australian expression of Syrah, which has its own separate day in February.",
-      "sources": ["https://www.mastermindconsulting.com.au/blog/shirazday/"]
+      "sources": [
+        "https://www.mastermindconsulting.com.au/blog/shirazday/"
+      ]
     },
     {
       "slug": "wine-and-cheese-day",
       "name": "National Wine & Cheese Day",
-      "rule": { "type": "fixed", "month": 7, "day": 25 },
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      },
       "category": "fun",
       "region": "USA",
       "confidence": "medium",
       "description": "Self-explanatory.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "albarino-day",
       "name": "World Albarino Day",
-      "rule": { "type": "fixed", "month": 8, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      },
       "category": "grape",
       "region": "Spain",
       "confidence": "high",
       "description": "Rias Baixas' white grape. In Cambados the Festa do Albarino runs for roughly the first five days of August — the second-oldest wine festival in Spain.",
-      "sources": ["https://albarinoday.co.uk/", "https://winesofgalicia.com/blog/albario-day-how-the-ras-baixas-biggest-party-got-started"]
+      "sources": [
+        "https://albarinoday.co.uk/",
+        "https://winesofgalicia.com/blog/albario-day-how-the-ras-baixas-biggest-party-got-started"
+      ]
     },
     {
       "slug": "old-vine-day",
       "name": "Old Vine Day",
-      "rule": { "type": "fixed", "month": 8, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      },
       "category": "tradition",
       "region": "South Africa",
       "confidence": "medium",
       "description": "Marks the founding of South Africa's Old Vine Project in 2016.",
-      "sources": ["https://travellingcorkscrew.com.au/blog/international-wine-days/"]
+      "sources": [
+        "https://travellingcorkscrew.com.au/blog/international-wine-days/"
+      ]
     },
     {
       "slug": "white-wine-day",
       "name": "National White Wine Day",
-      "rule": { "type": "fixed", "month": 8, "day": 4 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 4
+      },
       "category": "style",
       "region": "USA",
       "confidence": "medium",
       "description": "White wine of any kind.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "verdelho-day",
       "name": "National Verdelho Day",
-      "rule": { "type": "fixed", "month": 8, "day": 8 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 8
+      },
       "category": "grape",
       "region": "Australia",
       "confidence": "medium",
       "description": "Declared by Tulloch Wines in 2025 for the Hunter Valley's Verdelho, on 8/8. New, and backed by a single winery — but a real, dated claim.",
-      "sources": ["https://www.tullochwines.com/blog/news/august-8th-is-officially-national-verdelho-day/"]
+      "sources": [
+        "https://www.tullochwines.com/blog/news/august-8th-is-officially-national-verdelho-day/"
+      ]
     },
     {
       "slug": "prosecco-day",
       "name": "International Prosecco Day",
-      "rule": { "type": "fixed", "month": 8, "day": 13 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 13
+      },
       "category": "style",
       "region": "Italy",
       "confidence": "medium",
       "description": "Glera-based sparkling wine from Veneto and Friuli.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "pinot-noir-day",
       "name": "International Pinot Noir Day",
-      "rule": { "type": "fixed", "month": 8, "day": 18 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 18
+      },
       "category": "grape",
       "region": "International",
       "confidence": "medium",
       "description": "Burgundy, Oregon, Central Otago and everywhere else that chases it.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "red-wine-day",
       "name": "National Red Wine Day",
-      "rule": { "type": "fixed", "month": 8, "day": 28 },
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 28
+      },
       "category": "style",
       "region": "USA",
       "confidence": "medium",
       "description": "Red wine of any kind.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "cap-classique-day",
       "name": "Cap Classique Day",
-      "rule": { "type": "fixed", "month": 9, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 1
+      },
       "category": "style",
       "region": "South Africa",
       "confidence": "medium",
       "description": "South Africa's traditional-method sparkling wine, on the first day of Cape spring.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "bordeaux-wine-month",
       "name": "Bordeaux Wine Month (UK)",
-      "rule": { "type": "month", "month": 9 },
+      "rule": {
+        "type": "month",
+        "month": 9
+      },
       "category": "region",
       "region": "France / UK trade",
       "confidence": "medium",
       "description": "UK-wide trade promotion run by the Bordeaux wine council across 130+ merchants and bars.",
-      "sources": ["https://www.bordeaux.com/en/mag/blog/celebrate-the-diversity-of-bordeaux-wines-this-september/"]
+      "sources": [
+        "https://www.bordeaux.com/en/mag/blog/celebrate-the-diversity-of-bordeaux-wines-this-september/"
+      ]
     },
     {
       "slug": "cabernet-sauvignon-day",
       "name": "International Cabernet Sauvignon Day",
-      "rule": { "type": "computed", "fn": "thursdayBeforeLaborDay" },
+      "rule": {
+        "type": "computed",
+        "fn": "thursdayBeforeLaborDay"
+      },
       "category": "grape",
       "region": "International",
       "confidence": "medium",
       "description": "Created by Rick Bakas as the Labor Day counterpart to his Chardonnay Day. Some calendars instead list the first Thursday of September or a fixed 30 August — those are drifted retellings of this rule.",
-      "sources": ["https://winefolly.com/lifestyle/national-wine-day/"]
+      "sources": [
+        "https://winefolly.com/lifestyle/national-wine-day/"
+      ]
     },
     {
       "slug": "chianti-day",
       "name": "National Chianti Day",
-      "rule": { "type": "nth_weekday", "month": 9, "weekday": "FR", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "FR",
+        "n": 1
+      },
       "category": "region",
       "region": "Italy",
       "confidence": "medium",
       "description": "Tuscany's Sangiovese-based classic.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "box-wine-day",
       "name": "International Box Wine Day",
-      "rule": { "type": "fixed", "month": 9, "day": 9 },
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 9
+      },
       "category": "style",
       "region": "International",
       "confidence": "medium",
       "description": "Started in 2021 by Wine Nook. Bag-in-box, unapologetically.",
-      "sources": ["https://travellingcorkscrew.com.au/blog/international-wine-days/"]
+      "sources": [
+        "https://travellingcorkscrew.com.au/blog/international-wine-days/"
+      ]
     },
     {
       "slug": "port-wine-day-september",
       "name": "National Port Wine Day",
-      "rule": { "type": "fixed", "month": 9, "day": 10 },
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 10
+      },
       "category": "style",
       "region": "Portugal",
       "confidence": "medium",
       "description": "The more widely listed of the two Port days, promoted by Rota do Douro.",
-      "sources": ["https://rotadodouro.pt/en/port-wine-day/"]
+      "sources": [
+        "https://rotadodouro.pt/en/port-wine-day/"
+      ]
     },
     {
       "slug": "grenache-day",
       "name": "International Grenache Day",
-      "rule": { "type": "nth_weekday", "month": 9, "weekday": "FR", "n": 3 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "FR",
+        "n": 3
+      },
       "category": "grape",
       "region": "France, Spain",
       "confidence": "high",
       "description": "Confirmed by the Grenache Association itself: every third Friday of September. Garnacha in Spain.",
-      "sources": ["http://www.grenache-association.com/"]
+      "sources": [
+        "http://www.grenache-association.com/"
+      ]
     },
     {
       "slug": "moldova-national-wine-day",
       "name": "National Wine Day of Moldova",
-      "rule": { "type": "nth_weekday", "month": 10, "weekday": "SA", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "weekday": "SA",
+        "n": 1
+      },
       "durationDays": 2,
       "category": "region",
       "region": "Moldova",
       "confidence": "high",
       "description": "Ziua Nationala a Vinului — the largest wine event in Eastern Europe, held on the first weekend of October in Chisinau. Established by government decree in 2002.",
-      "sources": ["https://wineday.wineofmoldova.com/en", "https://winetravelguides.com/festivals/national-wine-day-moldova"]
+      "sources": [
+        "https://wineday.wineofmoldova.com/en",
+        "https://winetravelguides.com/festivals/national-wine-day-moldova"
+      ]
     },
     {
       "slug": "vranec-day",
       "name": "World Vranec Day",
-      "rule": { "type": "fixed", "month": 10, "day": 5 },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 5
+      },
       "category": "grape",
       "region": "North Macedonia",
       "confidence": "low",
       "description": "North Macedonia's dark, tannic native red.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "orange-wine-day",
       "name": "International Orange Wine Day",
-      "rule": { "type": "fixed", "month": 10, "day": 6 },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 6
+      },
       "category": "style",
       "region": "International",
       "confidence": "medium",
       "description": "Skin-contact white wine. One source dates it 5 October; 6 October is the more common listing.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "mexican-wine-day",
       "name": "Mexican Wine Day",
-      "rule": { "type": "fixed", "month": 10, "day": 7 },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 7
+      },
       "category": "region",
       "region": "Mexico",
       "confidence": "medium",
       "description": "Established in 2023 for the wines of Baja California and beyond.",
-      "sources": ["https://travellingcorkscrew.com.au/blog/international-wine-days/"]
+      "sources": [
+        "https://travellingcorkscrew.com.au/blog/international-wine-days/"
+      ]
     },
     {
       "slug": "virginia-wine-month",
       "name": "Virginia Wine Month",
-      "rule": { "type": "month", "month": 10 },
+      "rule": {
+        "type": "month",
+        "month": 10
+      },
       "category": "region",
       "region": "Virginia, USA",
       "confidence": "high",
       "description": "Official month-long promotion by Virginia Wine.",
-      "sources": ["https://www.virginiawine.org/virginia-wine-month"]
+      "sources": [
+        "https://www.virginiawine.org/virginia-wine-month"
+      ]
     },
     {
       "slug": "texas-wine-month",
       "name": "Texas Wine Month",
-      "rule": { "type": "month", "month": 10 },
+      "rule": {
+        "type": "month",
+        "month": 10
+      },
       "category": "region",
       "region": "Texas, USA",
       "confidence": "medium",
       "description": "Month-long promotion of Texas wine.",
-      "sources": ["https://txwinelover.com/national-and-international-wine-days/"]
+      "sources": [
+        "https://txwinelover.com/national-and-international-wine-days/"
+      ]
     },
     {
       "slug": "georgian-wine-month",
       "name": "Georgian Wine Month (UK)",
-      "rule": { "type": "month", "month": 10 },
+      "rule": {
+        "type": "month",
+        "month": 10
+      },
       "category": "region",
       "region": "Georgia / UK trade",
       "confidence": "medium",
       "description": "UK-wide trade promotion by Wines of Georgia, launched each year on International Orange Wine Day.",
-      "sources": ["https://www.winesgeorgia.uk/events-summary/georgian-wine-month"]
+      "sources": [
+        "https://www.winesgeorgia.uk/events-summary/georgian-wine-month"
+      ]
     },
     {
       "slug": "rioja-wine-month",
       "name": "Rioja Wine Month (UK)",
-      "rule": { "type": "month", "month": 10 },
+      "rule": {
+        "type": "month",
+        "month": 10
+      },
       "category": "region",
       "region": "Spain / UK trade",
       "confidence": "medium",
       "description": "UK retail and restaurant promotion of Rioja.",
-      "sources": ["https://www.buyrioja.co.uk/riojawinemonth"]
+      "sources": [
+        "https://www.buyrioja.co.uk/riojawinemonth"
+      ]
     },
     {
       "slug": "pinotage-day",
       "name": "International Pinotage Day",
-      "rule": { "type": "nth_weekday", "month": 10, "weekday": "SA", "n": 2 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "weekday": "SA",
+        "n": 2
+      },
       "category": "grape",
       "region": "South Africa",
       "confidence": "high",
       "description": "South Africa's own crossing of Pinot Noir and Cinsault, created in 1925.",
-      "sources": ["https://winemag.co.za/wine/opinion/melvyn-minnaar-those-quirky-international-wine-days/"]
+      "sources": [
+        "https://winemag.co.za/wine/opinion/melvyn-minnaar-those-quirky-international-wine-days/"
+      ]
     },
     {
       "slug": "drink-local-wine-week",
       "name": "Drink Local Wine Week",
-      "rule": { "type": "nth_weekday", "month": 10, "weekday": "MO", "n": 2 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "weekday": "MO",
+        "n": 2
+      },
       "durationDays": 7,
       "category": "trade",
       "region": "USA",
       "confidence": "low",
       "description": "Described as the 'second full week of October', which is ambiguous. Set here as the week starting the second Monday.",
-      "sources": ["http://www.drinklocalwine.com/"]
+      "sources": [
+        "http://www.drinklocalwine.com/"
+      ]
     },
     {
       "slug": "prokupac-day",
       "name": "Prokupac Day",
-      "rule": { "type": "fixed", "month": 10, "day": 14 },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 14
+      },
       "category": "grape",
       "region": "Serbia",
       "confidence": "low",
       "description": "Serbia's flagship native red.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "champagne-day",
       "name": "World Champagne Day",
-      "rule": { "type": "nth_weekday", "month": 10, "weekday": "FR", "n": 4 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "weekday": "FR",
+        "n": 4
+      },
       "category": "region",
       "region": "France",
       "confidence": "high",
       "description": "Run by the Comite Champagne. Distinct from National Champagne Day on 31 December.",
-      "sources": ["https://champagneday.champagne.fr/"]
+      "sources": [
+        "https://champagneday.champagne.fr/"
+      ]
     },
     {
       "slug": "mavrud-day",
       "name": "International Mavrud Day",
-      "rule": { "type": "fixed", "month": 10, "day": 26 },
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 26
+      },
       "category": "grape",
       "region": "Bulgaria",
       "confidence": "low",
       "description": "Bulgaria's native red, set on St Dimitar's Day.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-2025"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-2025"
+      ]
     },
     {
       "slug": "carignan-day",
       "name": "International Carignan Day",
-      "rule": { "type": "nth_weekday", "month": 10, "weekday": "TH", "n": -1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "weekday": "TH",
+        "n": -1
+      },
       "category": "grape",
       "region": "France, Spain, Chile",
       "confidence": "medium",
       "description": "Old-vine Carignan from the Languedoc, Priorat and Chile's Maule.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "xinomavro-day",
       "name": "International Xinomavro Day",
-      "rule": { "type": "fixed", "month": 11, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      },
       "category": "grape",
       "region": "Greece",
       "confidence": "high",
       "description": "Greece's noble red from Naoussa and Amyndeon, often compared to Nebbiolo. Promoted by Wines of Greece.",
-      "sources": ["https://winesofgreece.org/international-xinomavro-day/"]
+      "sources": [
+        "https://winesofgreece.org/international-xinomavro-day/"
+      ]
     },
     {
       "slug": "sherry-week",
       "name": "International Sherry Week",
-      "rule": { "type": "nth_weekday", "month": 11, "weekday": "MO", "n": 1 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "weekday": "MO",
+        "n": 1
+      },
       "durationDays": 7,
       "category": "style",
       "region": "Spain",
       "confidence": "high",
       "description": "Run by the Consejo Regulador of Jerez-Xeres-Sherry, with events in 30+ countries. First full week of November, Monday to Sunday.",
-      "sources": ["https://www.sherry.wine/sherryweek"]
+      "sources": [
+        "https://www.sherry.wine/sherryweek"
+      ]
     },
     {
       "slug": "merlot-day",
       "name": "International Merlot Day",
-      "rule": { "type": "fixed", "month": 11, "day": 7 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 7
+      },
       "category": "grape",
       "region": "International",
       "confidence": "medium",
       "description": "Bordeaux's most-planted grape, still recovering its reputation from Sideways.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "wine-in-moderation-day",
       "name": "Wine in Moderation Day",
-      "rule": { "type": "fixed", "month": 11, "day": 8 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 8
+      },
       "category": "trade",
       "region": "International",
       "confidence": "medium",
       "description": "European wine sector programme promoting responsible drinking.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "martinovanje",
       "name": "St Martin's Day (Martinovanje)",
-      "rule": { "type": "fixed", "month": 11, "day": 11 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      },
       "category": "tradition",
       "region": "Slovenia, Croatia, Austria, Hungary",
       "confidence": "high",
       "description": "The day St Martin traditionally turns the must into wine. One of the biggest wine holidays across Central Europe, marking the young wine's release.",
-      "sources": ["https://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/"]
+      "sources": [
+        "https://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/"
+      ]
     },
     {
       "slug": "tempranillo-day",
       "name": "International Tempranillo Day",
-      "rule": { "type": "nth_weekday", "month": 11, "weekday": "TH", "n": 2 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "weekday": "TH",
+        "n": 2
+      },
       "category": "grape",
       "region": "Spain",
       "confidence": "high",
       "description": "Spain's flagship red, from Rioja and Ribera del Duero.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "zinfandel-day",
       "name": "National Zinfandel Day",
-      "rule": { "type": "nth_weekday", "month": 11, "weekday": "WE", "n": 3 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "weekday": "WE",
+        "n": 3
+      },
       "category": "grape",
       "region": "California, USA",
       "confidence": "high",
       "description": "Run by ZAP, the Zinfandel Advocates and Producers.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     },
     {
       "slug": "beaujolais-nouveau-day",
       "name": "Beaujolais Nouveau Day",
-      "rule": { "type": "nth_weekday", "month": 11, "weekday": "TH", "n": 3 },
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "weekday": "TH",
+        "n": 3
+      },
       "category": "region",
       "region": "France",
       "confidence": "high",
       "description": "The release of the year's Gamay, at 12:01am on the third Thursday of November. The date is set in French law.",
-      "sources": ["https://drinkthis.substack.com/p/what-is-beaujolais-nouveau-day"]
+      "sources": [
+        "https://drinkthis.substack.com/p/what-is-beaujolais-nouveau-day"
+      ]
     },
     {
       "slug": "carmenere-day",
       "name": "International Carmenere Day",
-      "rule": { "type": "fixed", "month": 11, "day": 24 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 24
+      },
       "category": "grape",
       "region": "Chile",
       "confidence": "medium",
       "description": "Created in 2014 for Chile's emblematic red, lost to phylloxera in Bordeaux and rediscovered in Chile in 1994 after decades mistaken for Merlot.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "saperavi-day",
       "name": "International Saperavi Day",
-      "rule": { "type": "fixed", "month": 11, "day": 30 },
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 30
+      },
       "category": "grape",
       "region": "Georgia",
       "confidence": "low",
       "description": "Georgia's teinturier red — one of the few grapes with red flesh as well as red skin.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "maratheftiko-day",
       "name": "International Maratheftiko Day",
-      "rule": { "type": "fixed", "month": 12, "day": 1 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 1
+      },
       "category": "grape",
       "region": "Cyprus",
       "confidence": "low",
       "description": "Cyprus's rare native red.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "cabernet-franc-day",
       "name": "International Cabernet Franc Day",
-      "rule": { "type": "fixed", "month": 12, "day": 4 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 4
+      },
       "category": "grape",
       "region": "France",
       "confidence": "medium",
       "description": "Started by Social Vignerons to argue Cabernet Franc is more than a blending grape. Parent of both Cabernet Sauvignon and Merlot.",
-      "sources": ["http://socialvignerons.com/2015/09/07/give-cab-franc-its-day-its-more-than-a-blending-grape/"]
+      "sources": [
+        "http://socialvignerons.com/2015/09/07/give-cab-franc-its-day-its-more-than-a-blending-grape/"
+      ]
     },
     {
       "slug": "aszu-day",
       "name": "World Tokaj Aszu Day",
-      "rule": { "type": "fixed", "month": 12, "day": 10 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 10
+      },
       "category": "style",
       "region": "Hungary",
       "confidence": "medium",
       "description": "Hungary's botrytised sweet wine from Tokaj, the world's first classified wine region (1730).",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "pinot-meunier-day",
       "name": "Pinot Meunier Day",
-      "rule": { "type": "fixed", "month": 12, "day": 16 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      },
       "category": "grape",
       "region": "France",
       "confidence": "low",
       "description": "The third and least-discussed of the three main Champagne grapes.",
-      "sources": ["https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"]
+      "sources": [
+        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+      ]
     },
     {
       "slug": "sangria-day",
       "name": "National Sangria Day",
-      "rule": { "type": "fixed", "month": 12, "day": 20 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 20
+      },
       "category": "fun",
       "region": "USA",
       "confidence": "medium",
       "description": "Sangria in the depths of December, for reasons nobody explains.",
-      "sources": ["https://winefolly.com/lifestyle/national-wine-day/"]
+      "sources": [
+        "https://winefolly.com/lifestyle/national-wine-day/"
+      ]
     },
     {
       "slug": "national-champagne-day",
       "name": "National Champagne Day",
-      "rule": { "type": "fixed", "month": 12, "day": 31 },
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      },
       "category": "style",
       "region": "International",
       "confidence": "high",
       "description": "New Year's Eve. Distinct from World Champagne Day in October.",
-      "sources": ["https://wineinternationalassociation.org/wine-days-calendar-2026/"]
+      "sources": [
+        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
     }
   ]
 }
