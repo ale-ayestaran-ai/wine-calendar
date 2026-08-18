@@ -148,7 +148,7 @@ function occurrence(entry, year) {
 }
 
 // Build the subscribe links from wherever this page is actually served.
-const feed = location.origin + '/wine-holidays.ics';
+const feed = new URL('wine-holidays.ics', location.href).href;
 const webcal = feed.replace(/^https?:/, 'webcal:');
 document.getElementById('feed-url').textContent = feed;
 document.getElementById('google').href  = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcal);
@@ -164,7 +164,7 @@ document.getElementById('copy').addEventListener('click', async (e) => {
   } catch { e.target.textContent = 'Select the URL above'; }
 });
 
-fetch('/wine-holidays.json').then(r => r.json()).then(data => {
+fetch(new URL('wine-holidays.json', location.href)).then(r => r.json()).then(data => {
   const today = new Date();
   const now = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
   const year = today.getUTCFullYear();
