@@ -5,7 +5,7 @@ A subscribable calendar feed of wine holidays from around the world — grape da
 wine weeks and months, and traditional wine-country holidays like St Martin's Day
 and Bulgaria's Trifon Zarezan.
 
-84 entries. Subscribe once and they show up every year.
+82 entries. Subscribe once and they show up every year.
 
 ## Subscribe
 
@@ -74,10 +74,29 @@ where each date came from.
 
 Most entries need nothing. Check these each winter:
 
-- **Prosecco Week** — sources give three different date ranges
-- **Sparkling Wine Week** / **Drink Local Wine Week** — "first/second full week of"
-  is never pinned down precisely
+- **Sparkling Wine Week** — the only primary source is the founder's 2016 launch
+  announcement (fixed 1-7 July). Aggregators say "first full week of July"
+  instead. Nobody appears to be actively running it any more, so if a real
+  organiser turns up, follow them.
+- **Mourvedre Day** — the one remaining low-confidence entry. The date is
+  consistent everywhere, but a wine blog invented it and no trade body runs it.
+- **Pinot Meunier Day** — date is solid and Decanter marks it, but there is no
+  organising body, so it could quietly lapse.
+- **English Wine Week** — the computed rule matched 2026 exactly and was one day
+  long at the end for 2025. Worth a glance against WineGB's announced dates.
 - Anything marked `"confidence": "low"`
+
+### Deliberately excluded
+
+Events whose dates a committee sets fresh each year cannot be expressed as a
+recurring rule, so they are left out rather than being wrong most years:
+
+- **National Prosecco Week** (Prosecco DOC Consortium, US campaign) — has run in
+  both June and July, and moved weeks within the month.
+- **Drink Local Wine Week** — no organiser since 2013; the domain now redirects
+  elsewhere. Dropped as defunct.
+- **Port Day, 27 January** — real but unofficial and dormant since 2012. The
+  official Port Wine Day, 10 September, is in the feed instead.
 
 ## Adding a holiday
 

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updated": "2026-08-18",
+    "updated": "2026-08-20",
     "note": "Source of truth for the Wine Holidays calendar feed. Edit this file, run `node build.mjs`, commit the regenerated .ics.",
     "ruleTypes": {
       "fixed": "Same calendar date every year. { month, day }",
@@ -29,22 +29,6 @@
       "description": "Feast of St Vincent, patron saint of winegrowers. Marked as Vincencovo in Slovenia and Croatia, and by the Saint-Vincent Tournante procession that rotates between villages in Burgundy.",
       "sources": [
         "https://winetastingljubljana.com/blog/6-important-wine-holidays-slovenia/"
-      ]
-    },
-    {
-      "slug": "port-wine-day-january",
-      "name": "International Port Wine Day",
-      "rule": {
-        "type": "fixed",
-        "month": 1,
-        "day": 27
-      },
-      "category": "style",
-      "region": "Portugal",
-      "confidence": "low",
-      "description": "A day for Portugal's fortified wine from the Douro. Note there are two competing Port days — this one and 10 September. Both are in this calendar.",
-      "sources": [
-        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
       ]
     },
     {
@@ -245,16 +229,18 @@
       "slug": "qvevri-day",
       "name": "International Qvevri Day",
       "rule": {
-        "type": "fixed",
+        "type": "nth_weekday",
         "month": 4,
-        "day": 26
+        "weekday": "SU",
+        "n": -1
       },
       "category": "tradition",
       "region": "Georgia",
-      "confidence": "low",
-      "description": "The buried clay vessel at the heart of Georgian winemaking, a UNESCO-listed practice.",
+      "confidence": "high",
+      "description": "Celebrates Georgia's clay qvevri winemaking, on UNESCO's intangible heritage list. Started 2025 by Shalva Khetsuriani of the Georgian Sommelier Association, backed by the National Wine Agency. Held on the last Sunday of April.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://wine.gov.ge/En/News/38213",
+        "https://magazine.asi.info/?p=4047"
       ]
     },
     {
@@ -356,7 +342,7 @@
     },
     {
       "slug": "mourvedre-day",
-      "name": "National Mourvedre Day",
+      "name": "Mourvedre Day",
       "rule": {
         "type": "fixed",
         "month": 5,
@@ -365,7 +351,7 @@
       "category": "grape",
       "region": "USA, France, Spain",
       "confidence": "low",
-      "description": "Declared by Texas Wine Lover in 2017 to fill a gap in the calendar. The M in GSM; Monastrell in Spain.",
+      "description": "Started in 2017 by the Texas Wine Lover blog, which named the day after the date of its own Mourvedre tasting. No trade body runs it, but wineries in Texas, California and South Africa mark it. The date itself is consistent everywhere.",
       "sources": [
         "https://txwinelover.com/national-and-international-wine-days/"
       ]
@@ -427,10 +413,10 @@
       },
       "category": "trade",
       "region": "International",
-      "confidence": "low",
+      "confidence": "high",
       "description": "A day for the people pouring rather than the wine itself.",
       "sources": [
-        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+        "https://www.asi.info/sommelier-day-celebrated-worldwide-on-june-3/"
       ]
     },
     {
@@ -492,10 +478,10 @@
       },
       "category": "grape",
       "region": "Spain",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Rueda's white grape. Sources split between the second Friday and the second Thursday of June.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://dorueda.com/el-mes-del-verdejo/"
       ]
     },
     {
@@ -513,24 +499,6 @@
       "description": "The US rose day. Not the same as International Rose Day later in the month.",
       "sources": [
         "https://wineinternationalassociation.org/wine-days-calendar-2026/"
-      ]
-    },
-    {
-      "slug": "prosecco-week",
-      "name": "Prosecco Week",
-      "rule": {
-        "type": "nth_weekday",
-        "month": 6,
-        "weekday": "MO",
-        "n": 3
-      },
-      "durationDays": 7,
-      "category": "style",
-      "region": "Italy",
-      "confidence": "low",
-      "description": "Sources disagree badly on this one — third week of June, 11-16 June, and 24-30 June all appear. Verify before relying on it.",
-      "sources": [
-        "https://winetimefridays.com/wine-days/"
       ]
     },
     {
@@ -555,14 +523,14 @@
         "type": "nth_weekday",
         "month": 6,
         "weekday": "SA",
-        "n": 3
+        "n": 2
       },
       "category": "grape",
-      "region": "South Africa, France",
-      "confidence": "low",
-      "description": "Chenin from the Loire and South Africa. Dates in the wild range across 13, 14, 18 and 20 June — the third Saturday is the most defensible reading.",
+      "region": "South Africa, France, Australia",
+      "confidence": "high",
+      "description": "Run by the Chenin Blanc Association of South Africa with Wines of South Africa, started 2014. The Loire's Anjou-Saumur growers joined in 2017. The date moved around until 2023 and has been the second Saturday of June since - older listings still repeat the retired rules.",
       "sources": [
-        "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+        "https://www.chenin.co.za/drinkchenin"
       ]
     },
     {
@@ -609,10 +577,10 @@
       "durationDays": 7,
       "category": "style",
       "region": "International",
-      "confidence": "low",
+      "confidence": "medium",
       "description": "Described only as 'the first week of July', which no source pins down precisely. Set here as 1-7 July.",
       "sources": [
-        "https://winefolly.com/lifestyle/national-wine-day/"
+        "https://www.pr.com/press-release/669357"
       ]
     },
     {
@@ -625,10 +593,10 @@
       },
       "category": "style",
       "region": "Spain",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Spain's traditional-method sparkling wine. Most calendars say 12 July; one says the second Saturday of July.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://www.cava.wine/en/discover/international-cava-day/"
       ]
     },
     {
@@ -910,7 +878,7 @@
     },
     {
       "slug": "vranec-day",
-      "name": "World Vranec Day",
+      "name": "Vranec World Day",
       "rule": {
         "type": "fixed",
         "month": 10,
@@ -918,10 +886,10 @@
       },
       "category": "grape",
       "region": "North Macedonia",
-      "confidence": "low",
-      "description": "North Macedonia's dark, tannic native red.",
+      "confidence": "high",
+      "description": "Celebrates North Macedonia's flagship red grape. Run by the Wines of Macedonia association, first held 5 October 2019. The Vranec Wine Salon usually falls the day before - the day itself is the 5th.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://www.vranecworldday.com/"
       ]
     },
     {
@@ -1034,24 +1002,6 @@
       ]
     },
     {
-      "slug": "drink-local-wine-week",
-      "name": "Drink Local Wine Week",
-      "rule": {
-        "type": "nth_weekday",
-        "month": 10,
-        "weekday": "MO",
-        "n": 2
-      },
-      "durationDays": 7,
-      "category": "trade",
-      "region": "USA",
-      "confidence": "low",
-      "description": "Described as the 'second full week of October', which is ambiguous. Set here as the week starting the second Monday.",
-      "sources": [
-        "http://www.drinklocalwine.com/"
-      ]
-    },
-    {
       "slug": "prokupac-day",
       "name": "Prokupac Day",
       "rule": {
@@ -1061,10 +1011,10 @@
       },
       "category": "grape",
       "region": "Serbia",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Serbia's flagship native red.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://www.prokupacday.rs/en-index.php"
       ]
     },
     {
@@ -1094,10 +1044,11 @@
       },
       "category": "grape",
       "region": "Bulgaria",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Bulgaria's native red, set on St Dimitar's Day.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2024/wine-and-grape-days-2025"
+        "https://www.mavrudday.com/bg/za-mdm",
+        "https://www.bta.bg/en/news/973115"
       ]
     },
     {
@@ -1276,10 +1227,10 @@
       },
       "category": "grape",
       "region": "Georgia",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Georgia's teinturier red — one of the few grapes with red flesh as well as red skin.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://bm.ge/news/saferavis-saertashoriso-dghe-msoflios-ghvinis-kalendarshi-mokhvda"
       ]
     },
     {
@@ -1292,10 +1243,10 @@
       },
       "category": "grape",
       "region": "Cyprus",
-      "confidence": "low",
+      "confidence": "high",
       "description": "Cyprus's rare native red.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://maratheftikoday.cy/"
       ]
     },
     {
@@ -1340,10 +1291,10 @@
       },
       "category": "grape",
       "region": "France",
-      "confidence": "low",
-      "description": "The third and least-discussed of the three main Champagne grapes.",
+      "confidence": "medium",
+      "description": "The third and least-discussed of the three main Champagne grapes. The day is informal - it started in 2020 as a wordplay on the pronunciation of Meunier, with no wine body behind it, though Decanter and others now mark it.",
       "sources": [
-        "https://www.wsetglobal.com/knowledge-centre/blog/2025/grape-and-wine-days-2026"
+        "https://www.decanter.com/learn/international-pinot-meunier-day-celebrate-a-grape-shining-from-champagne-to-oregon-570394/"
       ]
     },
     {
@@ -1376,6 +1327,23 @@
       "description": "New Year's Eve. Distinct from World Champagne Day in October.",
       "sources": [
         "https://wineinternationalassociation.org/wine-days-calendar-2026/"
+      ]
+    },
+    {
+      "slug": "port-wine-day",
+      "name": "Port Wine Day",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 10
+      },
+      "category": "style",
+      "region": "Portugal",
+      "confidence": "high",
+      "description": "Marks 10 September 1756, when the Douro was formally demarcated - the first regulated wine region in the world. Run by the Instituto dos Vinhos do Douro e do Porto (IVDP).",
+      "sources": [
+        "https://www.ivdp.pt/pt/projetos/port-wine-day/",
+        "https://www.origins.wine/porto"
       ]
     }
   ]
