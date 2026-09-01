@@ -5,7 +5,7 @@ A subscribable calendar feed of wine holidays from around the world — grape da
 wine weeks and months, and traditional wine-country holidays like St Martin's Day
 and Bulgaria's Trifon Zarezan.
 
-82 entries. Subscribe once and they show up every year.
+74 entries. Subscribe once and they show up every year.
 
 ## Subscribe
 
@@ -41,7 +41,6 @@ recurrence rules can express both kinds of date natively:
 | `fixed` | World Malbec Day, 17 April | `FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=17` |
 | `nth_weekday` | Grenache Day, 3rd Friday of September | `FREQ=YEARLY;BYMONTH=9;BYDAY=3FR` |
 | `nth_weekday` (n: -1) | Carignan Day, last Thursday of October | `FREQ=YEARLY;BYMONTH=10;BYDAY=-1TH` |
-| `month` | Virginia Wine Month | 31-day event, repeats yearly |
 
 So the calendar app does the date math, and the file is good indefinitely.
 

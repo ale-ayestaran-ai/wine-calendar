@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updated": "2026-08-20",
+    "updated": "2026-09-01",
     "note": "Source of truth for the Wine Holidays calendar feed. Edit this file, run `node build.mjs`, commit the regenerated .ics.",
     "ruleTypes": {
       "fixed": "Same calendar date every year. { month, day }",
@@ -146,21 +146,6 @@
       ]
     },
     {
-      "slug": "washington-wine-month",
-      "name": "Washington Wine Month",
-      "rule": {
-        "type": "month",
-        "month": 3
-      },
-      "category": "region",
-      "region": "Washington, USA",
-      "confidence": "medium",
-      "description": "Month-long promotion of Washington State wine.",
-      "sources": [
-        "https://winetimefridays.com/wine-days/"
-      ]
-    },
-    {
       "slug": "vermouth-day",
       "name": "World Vermouth Day",
       "rule": {
@@ -294,21 +279,6 @@
       ]
     },
     {
-      "slug": "oregon-wine-month",
-      "name": "Oregon Wine Month",
-      "rule": {
-        "type": "month",
-        "month": 5
-      },
-      "category": "region",
-      "region": "Oregon, USA",
-      "confidence": "high",
-      "description": "Month-long promotion by the Oregon Wine Board.",
-      "sources": [
-        "https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"
-      ]
-    },
-    {
       "slug": "moscato-day",
       "name": "World Moscato Day",
       "rule": {
@@ -434,21 +404,6 @@
       "description": "Sparkling wine of any origin.",
       "sources": [
         "https://txwinelover.com/national-and-international-wine-days/"
-      ]
-    },
-    {
-      "slug": "idaho-wine-month",
-      "name": "Idaho Wine Month",
-      "rule": {
-        "type": "month",
-        "month": 6
-      },
-      "category": "region",
-      "region": "Idaho, USA",
-      "confidence": "medium",
-      "description": "Month-long promotion of Idaho wine.",
-      "sources": [
-        "https://www.wineenthusiast.com/culture/wine/social-media-alcohol-food-holiday-guide/"
       ]
     },
     {
@@ -762,21 +717,6 @@
       ]
     },
     {
-      "slug": "bordeaux-wine-month",
-      "name": "Bordeaux Wine Month (UK)",
-      "rule": {
-        "type": "month",
-        "month": 9
-      },
-      "category": "region",
-      "region": "France / UK trade",
-      "confidence": "medium",
-      "description": "UK-wide trade promotion run by the Bordeaux wine council across 130+ merchants and bars.",
-      "sources": [
-        "https://www.bordeaux.com/en/mag/blog/celebrate-the-diversity-of-bordeaux-wines-this-september/"
-      ]
-    },
-    {
       "slug": "cabernet-sauvignon-day",
       "name": "International Cabernet Sauvignon Day",
       "rule": {
@@ -922,66 +862,6 @@
       "description": "Established in 2023 for the wines of Baja California and beyond.",
       "sources": [
         "https://travellingcorkscrew.com.au/blog/international-wine-days/"
-      ]
-    },
-    {
-      "slug": "virginia-wine-month",
-      "name": "Virginia Wine Month",
-      "rule": {
-        "type": "month",
-        "month": 10
-      },
-      "category": "region",
-      "region": "Virginia, USA",
-      "confidence": "high",
-      "description": "Official month-long promotion by Virginia Wine.",
-      "sources": [
-        "https://www.virginiawine.org/virginia-wine-month"
-      ]
-    },
-    {
-      "slug": "texas-wine-month",
-      "name": "Texas Wine Month",
-      "rule": {
-        "type": "month",
-        "month": 10
-      },
-      "category": "region",
-      "region": "Texas, USA",
-      "confidence": "medium",
-      "description": "Month-long promotion of Texas wine.",
-      "sources": [
-        "https://txwinelover.com/national-and-international-wine-days/"
-      ]
-    },
-    {
-      "slug": "georgian-wine-month",
-      "name": "Georgian Wine Month (UK)",
-      "rule": {
-        "type": "month",
-        "month": 10
-      },
-      "category": "region",
-      "region": "Georgia / UK trade",
-      "confidence": "medium",
-      "description": "UK-wide trade promotion by Wines of Georgia, launched each year on International Orange Wine Day.",
-      "sources": [
-        "https://www.winesgeorgia.uk/events-summary/georgian-wine-month"
-      ]
-    },
-    {
-      "slug": "rioja-wine-month",
-      "name": "Rioja Wine Month (UK)",
-      "rule": {
-        "type": "month",
-        "month": 10
-      },
-      "category": "region",
-      "region": "Spain / UK trade",
-      "confidence": "medium",
-      "description": "UK retail and restaurant promotion of Rioja.",
-      "sources": [
-        "https://www.buyrioja.co.uk/riojawinemonth"
       ]
     },
     {
